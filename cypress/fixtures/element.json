@@ -1,0 +1,15 @@
+{
+  "usernameField": "[data-test='username']",
+  "passwordField": "[data-test='password']",
+  "loginButton": "[data-test='login-button']",
+  "standardUsername": "standard_user",
+  "gltchUsername":"performance_glitch_user",
+  "lockedoutUsername": "locked_out_user",
+  "problemUsername":"problem_user",
+  "password":"secret_sauce",
+  "productTitle": ".title",
+  "productImage": ".inventory_item_img",
+  "LockedMessage": "h3",
+  "errorMessage":"Epic sadface: You can only access '/inventory.html' when you are logged in."
+
+}

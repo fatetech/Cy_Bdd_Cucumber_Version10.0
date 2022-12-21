@@ -1,0 +1,28 @@
+{
+  "name": "cy_bdd_cucumber_version10.0",
+  "version": "1.0.0",
+  "description": "implementing cucumber bdd using the cypress 10+ version ",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber"
+  ],
+  "author": "StephenFate",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^12.1.0",
+    "cypress-fill-command": "^1.0.2",
+    "esbuild": "^0.16.8"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.0.0"
+  },
+  "@bahmutov/cypress-esbuild-preprocessor":{
+    "nonGlobalStepDefinitions": true
+  }
+
+}
