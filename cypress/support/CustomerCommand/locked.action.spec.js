@@ -6,6 +6,6 @@ Cypress.Commands.add('EnterLockedUsername', ()=>{
 
 Cypress.Commands.add('verifyErrorMessage', ()=>{
     cy.fixture('element').then(ele =>{
-        cy.get(ele.LockedMessage).should('contains', 'Epic sadface: Sorry, this user has been locked out.')
+        cy.get(ele.errorButton).should('exist').and('have.text', ele.errorMessage)
     })
 })
