@@ -3,9 +3,9 @@ Cypress.Commands.add('LunchApp', ()=>{
 })
 
 
-Cypress.Commands.add('EnterUsername', ()=>{
+Cypress.Commands.add('EnterUsername', (Username)=>{
     cy.fixture("element").then(el =>{
-        cy.get(el.usernameField).should('be.visible').type(el.standardUsername)
+        cy.get(el.usernameField).should('be.visible').type(Username)
     })
 })
 
